@@ -1,7 +1,11 @@
 # AI Agent Governance Registry — Executive Showcase
 
 <p align="center">
-  <strong>Autonomous Agent Inventory, Risk Classification & Human-in-the-Loop Control System</strong><br />
+  <img src="assets/agent-registry-overview.webp" alt="AI Agent Governance Registry — Connected Systems Map & Agent Detail Overview" width="840" style="border-radius: 8px; margin-bottom: 16px;" />
+</p>
+
+<p align="center">
+  <strong>Autonomous Agent Inventory, Risk Classification & Human-in-the-Loop Control Architecture</strong><br />
   Enterprise Governance Framework for Autonomous AI Workflows & Tool Access Boundaries
 </p>
 
@@ -15,7 +19,7 @@
 
 ## Executive Overview
 
-The **AI Agent Governance Registry** is an architectural portfolio showcase designed to address the critical governance challenges introduced by autonomous AI agents, multi-agent orchestrations, and tool-calling systems. It demonstrates how enterprise technology leaders can maintain explicit ownership, permission boundary enforcement, risk tiering, and human oversight over connected agentic workflows.
+The **AI Agent Governance Registry** is an architectural portfolio showcase designed to address the governance challenges introduced by autonomous AI agents, multi-agent orchestrations, and tool-calling systems. It demonstrates how enterprise technology leaders can maintain explicit ownership, permission boundary enforcement, risk tiering, and human oversight over connected agentic workflows.
 
 ---
 
@@ -26,7 +30,7 @@ Experience the functional web application interface directly in your browser:
 
 > [!NOTE]
 > **Portfolio Showcase & Synthetic Data Scope**:
-> This repository is a documentation-only portfolio showcase. The live demonstration operates with representative synthetic agent configurations and deterministic scenarios. It does not process real enterprise agent credentials, active API tokens, or production system logs.
+> This repository is a documentation-only portfolio showcase. The live demonstration operates with representative synthetic agent configurations and deterministic scenarios. Persistence in the public portfolio application is browser-local (`localStorage`) and synthetic. It does not imply production IAM enforcement, production API isolation, immutable storage, or live enterprise credentials.
 
 ---
 
@@ -39,7 +43,7 @@ flowchart TD
     B -->|High Impact Action| D[Human Approval Gate Required]
     C --> E[Lifecycle State Management]
     D --> E
-    E --> F[Immutable Audit Log & Escalation Ledger]
+    E --> F[Structured Audit Log & Escalation Ledger]
     F --> G[Executive Agent Governance Registry]
 ```
 
@@ -56,19 +60,19 @@ flowchart TD
    - Definition of tool access boundaries, API call limits, read vs. write permissions, and external network constraints.
 
 3. **Human-in-the-Loop Oversight Gates**:
-   - Mandatory human sign-off triggers for high-impact autonomous actions, policy exceptions, or elevated privilege requests.
-   - Traceable escalation ledger for audit compliance.
+   - Human sign-off triggers for high-impact autonomous actions, policy exceptions, or elevated privilege requests.
+   - Structured escalation ledger for audit review.
 
 4. **Connected System Dependency Mapping**:
    - Visual dependency mapping connecting autonomous agents to underlying databases, microservices, and external APIs.
 
 ---
 
-## Technology Stack & Categories
+## Verified Technology Stack
 
-- **User Interface**: React, TypeScript, Next.js, Tailwind CSS
-- **Visualization & System Graphs**: Interactive Dependency Mapping & Governance Ledgers
-- **Standards & Best Practices**: Zero Trust Security Architecture, Least Privilege Access Control, ISO/IEC 42001
+- **Frontend**: React 18, TypeScript 5, Vite 5
+- **State & Architecture**: Typed `useReducer` state model, versioned `localStorage` persistence
+- **Styling**: Custom CSS design tokens
 
 ---
 
